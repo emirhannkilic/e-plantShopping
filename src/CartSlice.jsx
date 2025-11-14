@@ -6,7 +6,7 @@ export const CartSlice = createSlice({
     items: [], 
   },
   reducers: {
-    // 👉 Ürün ekleme
+   
     addItem: (state, action) => {
       const newItem = action.payload; 
       const existingItem = state.items.find(
